@@ -1,0 +1,156 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: lightgray;
+}
+
+h1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 55px;    
+    background-image: url("img/tubeMan.jpg");
+    background-position: center center;
+    background-size: auto;
+    height: 200px;    
+    padding-bottom: 60px;
+    text-shadow: 5px 3px black;
+    letter-spacing: 4px;
+    
+}
+
+.displayTitle{
+    background-color: rgb(255,148,6);
+    font-size: 28px;    
+    color: white;
+    text-align: center;
+    text-shadow: 2px 1px black;
+}
+
+.sectionTitle{
+    background-color: #7a9912;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+}
+
+h3{
+    margin-left: 868px;
+    background-color: #a4c639;
+    font-size: 14px;
+    color: white;
+    border: 1px solid black;    
+    width: 100px;
+    height: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+h3 a:hover{
+    color: black;
+    letter-spacing: 5px;
+    background-color: rgb(255,148,6);
+       
+}
+
+#id01{
+    width: 200px;
+    border-radius: 5px;
+    border: 5px solid white;
+    margin-left: 50px;
+
+}
+
+#id01:hover{
+    transform: scale(1.2);
+}
+
+#id02{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: 2px solid;
+    border-color: orange;
+    border-radius: 5px;
+}
+
+#id02:hover{
+    transform: scale(1.1);
+}
+
+p{
+    text-align: left;
+}
+
+a{
+    text-decoration: underline;
+    color: white;
+}
+
+.productsList{
+    text-align: center;
+    font-size: 40px;
+}
+
+.productImg{ /* Images on the Products page */
+    width: 300px;
+    border-radius: 5px;
+    border: 5px solid white;
+    height: 300px;
+}
+
+.productImg:hover{
+    transform: scale(1.1);
+}
+
+.products{
+
+    width: 30%;
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+    margin: 5px;
+    float: left;
+}
+
+.aboutImg{ /* Image on the About page */
+    width: 275px;
+    border: 5px solid black;
+    border-radius: 5px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.about{
+    text-align: center;
+    border-bottom: 2px solid black;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+.abouttext{
+    background-color: white;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-indent: 20px;
+    border-radius: 5px;
+    border: 1px solid orange;
+    padding: 20px;
+    font-size: 22px;
+    width: 800px;
+    
+}
+
+p.text{
+    text-align: justify;
+    font-size: 18px;
+    word-spacing: 10px;
+    background: white;
+    padding: 5px;
+    text-indent: 5px;
+    
+}
